@@ -5,6 +5,7 @@ setup(
     packages=find_packages(),
     version='0.0.1',
     description='Sonar Classification',
-    author='Natanael Nunes de Moura Junior',
+    author='Natanael Moura Junior',
+    author_email='natmourajr@lps.ufrj.br',
     license='MIT',
 )
