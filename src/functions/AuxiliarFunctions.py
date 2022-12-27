@@ -7,7 +7,6 @@ def write_list_of_hidden_neurons(filename, hidden_neurons):
     return 0
 def get_list_of_hidden_neurons(filename):
     with open(filename,'rb') as file_handler:
-        print(filename)
         [hidden_neurons] = pickle.load(file_handler)
         
     return hidden_neurons
